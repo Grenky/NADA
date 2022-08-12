@@ -1,0 +1,55 @@
+.Timer {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timer {
+	margin: 0 auto;
+	margin-top: 190px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 184.217px;
+	color: #FFFFFF;
+	width: 558px;
+	font-family: 'Raleway Fixed Numerals';
+}
+.timer-text {
+  width: 100%;
+  margin-top: -30px; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #FFF0E2;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+@media screen and (max-width: 600px) {
+	.timer {
+		font-size: 160.217px;
+		margin-left: 10px;
+	}
+	.timer-text {
+		justify-content: space-between;
+		margin-left: 25px;
+		padding: 0px 30px;
+	}
+	.header-hand_2 {
+		width: 309px;
+	}
+	.mobile-vector1 {
+		top: -177px;
+	}
+	.design_a_date {
+		margin-left: 122px;
+	}
+	.header-hand_1 {
+		height: 400px;
+	}
+	.header-hand_2 {
+		height: 313px;
+	}
+}

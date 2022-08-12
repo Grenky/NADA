@@ -1,0 +1,518 @@
+.road-row {
+	background-color: black;
+}
+.road-wrapper {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 107px;
+	margin-top: 60px;
+
+}
+.road-titile {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	margin-top: 60px;
+	margin-bottom: 106px;
+}
+.road-date1, .road-date2, .road-date3, .road-date4, .road-date5, .road-date6, .road-date7, .road-date8 {
+	color: #FFAD4D;
+	font-weight: 700;
+	font-size: 22px;
+	font-family: 'Montserrat';
+	padding-bottom: 200px;
+}
+.road-date1-modile, .road-date2-modile, .road-date3-modile, .road-date4-modile, .road-date5-modile,
+.road-date6-modile, .road-date7-modile, .road-date8-modile {
+	display: none;
+}
+.date-box {
+	display: flex;
+	flex-flow: column;
+	margin-right: 40px;
+	text-align: right;
+}
+.road-line-box {
+	position: relative;
+}
+.road-line1 {
+	width: 0px;
+	height: 266px;
+	border: 1px solid #FFAD4D;
+}
+.road-line2 {
+	width: 0px;
+	height: 2302px;
+	border: 1px solid  #979797;
+}
+.point1 {
+	width: 22px;
+	height: 22px;
+	top: 0px;
+	left: 5px;
+	background: #FFAD4D;
+	border: 6px solid #333333;
+	position: absolute;
+	border-radius: 50%;
+}
+.point2 {
+	width: 22px;
+	height: 22px;
+	top: 260px;
+	left: 5px;
+	background: #FFAD4D;
+	border: 6px solid #333333;
+	position: absolute;
+	border-radius: 50%;
+}
+.point3 {
+	width: 22px;
+	height: 22px;
+	bottom: 0px;
+	left: 5px;
+	background: #FFAD4D;
+	border: 6px solid #333333;
+	position: absolute;
+	border-radius: 50%;
+}
+.point4, .point5, .point6, .point7, .point8, .point9   {
+	width: 22px;
+	height: 22px;
+	top: 0px;
+	left: 5px;
+	background: #FFAD4D;
+	border: 6px solid #333333;
+	position: absolute;
+	border-radius: 50%;
+	display: none;
+}
+
+.road-content-title-box {
+	display: flex;
+	padding-left: 0px;
+}
+.road-content-title {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 22px;
+}
+.road-content-title2 {
+	color: white;
+	font-weight: 600;
+	font-size: 50px;
+}
+.road-content-img {
+	width: 96px;
+	height: 37px;
+	margin-left: 19px;
+}
+.road-content-text {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 18px;
+	color: white;
+}
+.road-content-title-box2 {
+	display: flex;
+	padding-left: 0px;
+	margin-top: 89px;
+	
+}
+.road-content-title2:hover {
+	color: #FFAD4D;
+	cursor: pointer;
+}
+.road-date2 {
+	padding-bottom: 359px;
+}
+.road-date3 {
+	padding-bottom: 270px;
+}
+.road-date4 {
+	padding-bottom: 214px;
+}
+.road-date5 {
+	padding-bottom: 216px;
+}
+.road-date6 {
+	padding-bottom: 410px;
+}
+.road-date7 {
+	padding-bottom: 243px;
+}
+.road-content-title-box3 {
+	display: flex;
+	padding-left: 0px;
+	margin-top: 89px;
+}
+.road-content-title-box4, .road-content-title-box5, .road-content-title-box6, .road-content-title-box7, .road-content-title-box8{
+	display: flex;
+	padding-left: 0px;
+	margin-top: 60px;
+}
+@media screen and (max-width: 1000px) {
+	.burger-main {
+		display: block !important;
+		max-width: 1000px;
+	}
+	.menu__links a {
+		text-align: center;
+	}
+	.point2 {
+		top: 350px;
+	}
+	.road-line1 {
+		height: 349px;
+	}    
+	.road-date1 {
+		padding-bottom: 291px
+	}
+	.road-date2 {
+		padding-bottom: 467px;
+	}
+	.road-date3 {
+		padding-bottom: 387px;
+	}
+	.road-date4 {
+		padding-bottom: 335px;
+	}
+	.road-date5 {
+		padding-bottom: 244px;
+	}
+	.road-date6 {
+		padding-bottom: 456px;
+	}
+	.road-date7 {
+		padding-bottom: 266px;
+	}
+	.road-line2 {
+		min-height: 89%;
+	}
+}
+@media screen and (max-width: 900px) {
+	.point2 {
+		top: 376px;
+	}
+	.road-line1 {
+		height: 381px;
+	}   
+	.road-date1 {
+		padding-bottom: 319px
+	}
+	.road-date2 {
+		padding-bottom: 524px;
+	}
+	.road-date3 {
+		padding-bottom: 443px;
+	}
+	.road-date4 {
+		padding-bottom: 336px;
+	}
+	.road-date5 {
+		padding-bottom: 244px;
+	}
+	.road-date6 {
+		padding-bottom: 540px;
+	}
+	.road-date7 {
+		padding-bottom: 266px;
+	}
+	.road-line2 {
+		min-height: 89%;
+	}
+}
+@media screen and (max-width: 750px) {
+	.road-line2 {
+		min-height: 91%;
+	}
+	.road-line1 {
+		height: 449px;
+	}
+	.point2 {
+		top: 439px;
+	}
+	.road-date1 {
+		padding-bottom: 347px;
+	}
+	.road-date2 {
+		padding-bottom: 633px;
+	}
+	.road-date3 {
+		padding-bottom: 529px;
+	}
+	.road-date4 {
+		padding-bottom: 452px;
+	}
+	.road-date5 {
+		padding-bottom: 303px;
+	}
+	.road-date6 {
+		padding-bottom: 628px;
+	}
+	.road-date7 {
+		padding-bottom: 296px;
+	}
+}
+@media screen and (max-width: 654px) {
+	#header {
+		max-width: 654px;
+	}
+	.burger-main {	
+		max-width: 654px;
+	}
+	.road-content-title2 {
+		font-weight: 400;
+		font-size: 46px;
+	}
+	.road-line1 {
+		height: 428px;
+	}
+	.point2 {
+		top: 430px;
+	}
+	.road-date1 {
+		padding-bottom: 340px;
+	}
+	.road-date2 {
+		padding-bottom: 665px;
+	}
+	.road-date3 {
+		padding-bottom: 563px;
+	}
+	.road-date4 {
+		padding-bottom: 421px;
+	}
+	.road-date5 {
+		padding-bottom: 310px;
+	}
+	.road-date6 {
+		padding-bottom: 659px;
+	}
+	.road-date7 {
+		padding-bottom: 310px;
+	}
+	.road-line2 {
+		min-height: 90%;
+	}
+	
+}
+@media screen and (max-width: 630px) {
+	.road-main-cotent  {
+		max-width: 65.666667% !important;
+	}
+	.point2 {
+		top: 370px;
+	}
+	.road-line1 {
+		height: 383px;
+	}
+	.road-line2 {
+		min-height: 88.6%;
+	}
+	.road-date1 {
+		padding-bottom: 278px;
+	}
+	.road-date2 {
+		padding-bottom: 442px;
+	}
+	.road-date3 {
+		padding-bottom: 341px;
+	}
+	.road-date4 {
+		padding-bottom: 285px;
+	}
+	.road-date5 {
+		padding-bottom: 225px;
+	}
+	.road-date6 {
+		padding-bottom: 527px;
+	}
+	.road-date7 {
+		padding-bottom: 255px;
+	}	
+}
+@media screen and (max-width: 574px) {
+	.road-main-cotent {
+		max-width: 62.666667% !important;
+	}
+	.road-content-title2 {
+		font-size: 43px;
+	}
+	.point2 {
+		top: 362px;
+	}
+	.road-date1 {
+		padding-bottom: 307px;
+	}
+	.road-date2 {
+		padding-bottom: 492px;
+	}
+	.road-date3 {
+		padding-bottom: 359px;
+	}
+	.road-date4 {
+		padding-bottom: 326px;
+	}
+	.road-date5 {
+		padding-bottom: 221px;
+	}
+	.road-date6 {
+		padding-bottom: 536px;
+	}
+	.road-date7 {
+		padding-bottom: 272px;
+	}
+}
+@media screen and (max-width: 550px) {
+	#header {
+		max-width: 550px;
+	}
+	.burger-main {
+		max-width: 550px;
+	}
+	.road-main-cotent {
+		max-width: 60.666667% !important;
+	}
+	.road-content-title2 {
+		font-size: 41px;
+	}
+	.point2 {
+		top: 389px;
+	}
+	.road-line1 {
+		height: 391px;
+	}
+	.road-date1 {
+		padding-bottom: 333px;
+	}
+	.road-date2 {
+		padding-bottom: 549px;
+	}
+	.road-date3 {
+		padding-bottom: 409px;
+	}
+	.road-date5 {
+		padding-bottom: 203px;
+	}
+	.road-date6 {
+		padding-bottom: 554px;
+	}
+	.road-date7 {
+		padding-bottom: 267px;
+	}
+}
+@media screen and (max-width: 515px) {
+	.road-main-cotent {
+		max-width: 57.666667% !important;
+	}
+	.road-content-title2 {
+		font-size: 35px;
+	}
+	.point2 {
+		top: 403px;
+	}
+	.road-line1 {
+		height: 406px;
+	}
+	.road-date1 {
+		padding-bottom: 346px;
+	}
+	.road-date2 {
+		padding-bottom: 581px;
+	}
+	.road-date3 {
+		padding-bottom: 415px;
+	}
+	.road-date4 {
+		padding-bottom: 294px;
+	}
+	.road-date5 {
+		padding-bottom: 213px;
+	}
+	.road-date6 {
+		padding-bottom: 608px;
+	}
+	.road-date7 {
+		padding-bottom: 241px;
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	#header {
+		max-width: 480px;
+	}
+	.burger-main {
+		max-width: 480px;
+	}
+	.date-box  {
+		width: 95%;
+	}
+	.road-content-title2 {
+		font-size: 32px;
+	}
+	.road-date1-modile, .road-date2-modile, .road-date3-modile, .road-date4-modile, .road-date5-modile,
+	.road-date6-modile, .road-date7-modile, .road-date8-modile	{
+		color: #FFAD4D;
+    	font-weight: 700;
+    	font-size: 22px;
+    	font-family: 'Montserrat';
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	.date-box {
+		display: none;
+	}
+	.road-line-box  {
+		width: 0% !important;
+	}
+	.road-content.d-flex.justify-content-center.col-sm-12  {
+		justify-content: flex-start!important;
+	}
+	.road-main-cotent {
+		max-width: 100% !important;
+	}
+	.road-content-title-box2, .road-content-title-box3, .road-content-title-box4, .road-content-title-box5,
+	.road-content-title-box6, .road-content-title-box7, .road-content-title-box8 {
+		margin-top: 0px;
+	}
+	.road-main-cotent-box1 {
+		padding-bottom: 55px;
+	}
+	.road-main-cotent-box2, .road-main-cotent-box3, .road-main-cotent-box4, .road-main-cotent-box5,
+	.road-main-cotent-box6, .road-main-cotent-box7, .road-main-cotent-box8 {
+		padding-bottom: 50px;
+	}
+	.point2 {
+		top: 303px;
+	}
+	.road-line1 {
+		height: 321px;
+	}
+	.point4, .point5, .point6, .point7, .point8, .point9 {
+		display: block;
+	}
+	.point4 {
+		top: 739px;
+	}
+	.point5 {
+		top: 1093px;
+	}
+	.point6 {
+		top: 1368px;
+	}
+	.point7 {
+		top: 1643px;
+	}
+	.point8 {
+		top: 2133px;
+	}
+	.point9 {
+		top: 2436px;
+	}
+
+}

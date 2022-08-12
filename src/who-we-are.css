@@ -1,0 +1,382 @@
+.who-wrapper {
+	width: 100%;
+	height: 100%;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	background-color: white;
+}
+
+.who-title {	
+	text-align: center;	
+	font-weight: 600;
+	font-size: 28px;
+	margin-top: 137px;
+	margin-bottom: 85px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.who-text {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 75px;
+}
+.who-text-title {
+	font-weight: 600;
+	font-size: 36px;
+	color: #8C3B69;
+}
+.who-text-main {
+	font-weight: 600;
+	font-size: 19px;
+}
+.who-img-box {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 133px;
+	flex-wrap: wrap;
+}
+.who-joind-box {
+	background: #6F2D52;
+}
+.joind-title {
+	font-weight: 600;
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF0E2;
+	margin-top: 62px;
+	margin-bottom: 52px;
+}
+.joind-text {
+	text-align: center;
+	font-weight: 600;
+	font-size: 19px;
+	color: #FFFFFF;
+}
+.joind-text-box {
+	margin-bottom: 78px;
+}
+.joind-btn {
+	width: 450px;
+	height: 70px;
+	background: #FFAD4D;
+	border-radius: 46px;
+	color: #333333;
+	font-weight: 600;
+	font-size: 18px;
+	border: none;
+}
+.joined-btn-box {
+	margin-bottom: 91px;
+}
+/*--------------------------------------------------------------
+#earl
+--------------------------------------------------------------*/
+.earl-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Eral-img, .earl-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.earl-bio{
+	transform: rotateY(180deg);
+}
+.earl-card:hover .Eral-img{
+	transform: rotateY(180deg);
+}
+.earl-card:hover .earl-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#abi
+--------------------------------------------------------------*/
+.abi-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Abi-img, .abi-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.abi-bio{
+	transform: rotateY(180deg);
+}
+.abi-card:hover .Abi-img{
+	transform: rotateY(180deg);
+}
+.abi-card:hover .abi-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#ali
+--------------------------------------------------------------*/
+.ali-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Ali-img, .ali-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.ali-bio{
+	transform: rotateY(180deg);
+}
+.ali-card:hover .Ali-img{
+	transform: rotateY(180deg);
+}
+.ali-card:hover .ali-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#angela
+--------------------------------------------------------------*/
+.angela-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Angela-img, .angela-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.angela-bio{
+	transform: rotateY(180deg);
+}
+.angela-card:hover .Angela-img{
+	transform: rotateY(180deg);
+}
+.angela-card:hover .angela-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#artem
+--------------------------------------------------------------*/
+.artem-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Artem-img, .artem-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.artem-bio{
+	transform: rotateY(180deg);
+}
+.artem-card:hover .Artem-img{
+	transform: rotateY(180deg);
+}
+.artem-card:hover .artem-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#serheii
+--------------------------------------------------------------*/
+.serheii-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Serheii-img, .serheii-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.serheii-bio{
+	transform: rotateY(180deg);
+}
+.serheii-card:hover .Serheii-img{
+	transform: rotateY(180deg);
+}
+.serheii-card:hover .serheii-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#asia
+--------------------------------------------------------------*/
+.asia-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Asia-img, .asia-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.asia-bio{
+	transform: rotateY(180deg);
+}
+.asia-card:hover .Asia-img{
+	transform: rotateY(180deg);
+}
+.asia-card:hover .asia-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#veronica
+--------------------------------------------------------------*/
+.veronica-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Veronica-img, .veronica-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.veronica-bio{
+	transform: rotateY(180deg);
+}
+.veronica-card:hover .Veronica-img{
+	transform: rotateY(180deg);
+}
+.veronica-card:hover .veronica-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#irina
+--------------------------------------------------------------*/
+.irina-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Irina-img, .irina-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.irina-bio{
+	transform: rotateY(180deg);
+}
+.irina-card:hover .Irina-img{
+	transform: rotateY(180deg);
+}
+.irina-card:hover .irina-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}
+/*--------------------------------------------------------------
+#dmitry
+--------------------------------------------------------------*/
+.dmitry-card {
+	position: relative;
+	width: 289px;
+	height: 379px;
+	perspective: 1000px;
+}
+.Dmitry-img, .dmitry-bio {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+}
+.dmitry-bio{
+	transform: rotateY(180deg);
+}
+.dmitry-card:hover .Dmitry-img{
+	transform: rotateY(180deg);
+}
+.dmitry-card:hover .dmitry-bio{
+	transform: rotateY(360deg);
+	backface-visibility: hidden;
+}

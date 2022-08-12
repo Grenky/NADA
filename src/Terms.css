@@ -1,0 +1,26 @@
+.terms-row {
+    background-color: white;
+}
+.terms-content {
+    margin-bottom: 100px;
+}
+.terms-row h2 {
+    font-weight: 900;
+    font-family: Arial sans-serif;
+}
+.terms-row div {
+    font-family: Arial sans-serif;
+    line-height: normal;
+}
+.warn1 {
+    margin-top: 20px;
+}
+.payment-title {
+    margin-bottom: 0px;
+}
+.nada-offer {
+    margin-top: 20px;
+}
+.payment {
+    margin-top: 20px;
+}
